@@ -23,7 +23,8 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-}
+        background-attachment: fixed;
+    }
 
 header {
     margin: 0 auto 30px auto;
@@ -133,4 +134,17 @@ textarea {
     padding: 1rem 0;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
+}
+
+@media(max-width: 1000px) {
+    header {
+        margin: 0 10px 15px 10px;
+    }
+    #title {
+        margin: 80px auto 10px auto;
+    }
+    #survey-form {
+        text-align: center;
+        margin: 30px 30px;
+    }
 }
