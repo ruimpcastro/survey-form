@@ -1,4 +1,4 @@
-This project is m second one from the freeCodeCamp.org website.
+This project is my second one from the freeCodeCamp.org website.
 
 I'll be using it to exercise some HTML and CSS and learn with it.
 
