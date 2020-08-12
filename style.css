@@ -30,7 +30,7 @@ header {
 #survey-form {
     text-align: center;
     margin: 30px 300px 20px 300px;
-    padding: 40px 5px 10px 5px
+    padding: 40px 5px 10px 5px;
     border-radius: 10px;
     background-color: darkblue;
 }
@@ -43,15 +43,17 @@ label {
     display: flex;
     font-size: 1.2rem;
     align-items: center;
+    padding-bottom: 0.4rem;
 }
 
 .form-control {
     width: 100%;
     border-radius: 5px;
     border-style: hidden;
-    padding: 10px 0 10px 0;
+    padding: 8px 10px 8px 10px;
     font-size: inherit;
     font-style: inherit;
+    box-sizing: border-box;
 }
 
 #name-label {
@@ -86,12 +88,14 @@ p {
 }
 
 #dropdown {
-    
+    background-color: white;
 }
 
 .tip {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     padding-left: 4px;
+    display: flex;
+    align-items: center;
 }
 
 #submit {
