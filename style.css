@@ -1,5 +1,8 @@
 :root {
-    --color-white: #FFF;
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
 }
 
 body {
@@ -8,7 +11,7 @@ body {
     line-height: 1.6;
     color: var(--color-white);
     margin: 0;
-    background-color: blue;
+    
     font-weight: 300;
     text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
     background-image: 
@@ -45,7 +48,7 @@ header {
     margin: 30px 300px 20px 300px;
     padding: 40px 5px 10px 5px;
     border-radius: 10px;
-    background-color: darkblue;
+    background-color: var(--color-darkblue-alpha);
 }
 
 .form-style {
