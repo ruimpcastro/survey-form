@@ -6,32 +6,32 @@
 </head>
 <body>
     <header>
-        <h1>freeCodeCamp Survey Form</h1>
-        <p>Thank you for taking the time to help us improve the platform</p>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
     </header>
     
-    <form action="">
-        <label for="name">
+    <form id="survey-form">
+        <label id="name-label" for="name">
             Name
         </label>
             
-        <input name="name" type="text" placeholder="Enter your name">
+        <input id="name" name="name" type="text" placeholder="Enter your name">
         
-        <label for="email">
+        <label id="email-label" for="email">
             Email
         </label>
 
-        <input name="email" type="email" placeholder="Enter your email here">
+        <input id="email" name="email" type="email" placeholder="Enter your email here">
 
-        <label for="age">
+        <label id="number-label" for="age">
             Age (optional)
         </label>
 
-        <input name="age" type="number" placeholder="Age" min="1" max="120">
+        <input id="number" name="age" type="number" placeholder="Age" min="1" max="120">
 
         <p>Wich option best describes your current role?</p>
         
-        <select name="role" required="">
+        <select id="dropdown" name="role" required="">
             <option disabled="" selected="" value="">Select current role</option>
             <option value="student">Student</option>
             <option value="job">Full Time Job</option>
@@ -127,7 +127,7 @@
         <p>Any comments or suggestions?</p>
         <textarea name="suggestions" placeholder="Enter your comment here..."></textarea>
 
-        <button type="submit">Submit</button>
+        <button id="submit" type="submit">Submit</button>
     </form>
 </body>
 </html>
