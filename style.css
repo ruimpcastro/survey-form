@@ -125,7 +125,7 @@ textarea {
 
 #submit {
     width: 100%;
-    background-color: teal;
+    background: var(--color-green);
     border-style: hidden;
     color: var(--color-white);
     font-size: inherit;
