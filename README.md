@@ -39,3 +39,6 @@ User Story #14: Inside the form element, I can select several fields from a seri
 User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
+
+Finished this project without a sweat.
+Had some dificulties with the container, but solved it pretty fast.
